@@ -38,7 +38,7 @@
         "@babel/preset-env": "^7.26.9",
         "@babel/preset-react": "^7.26.3",
         "@babel/preset-typescript": "^7.26.0",
-        "@eslint/js": "^9.19.0",
+        "@eslint/js": "^9.22.0",
         "@tailwindcss/postcss": "^4.0.8",
         "@testing-library/dom": "^10.4.0",
         "@testing-library/jest-dom": "^6.6.3",
