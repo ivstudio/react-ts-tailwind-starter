@@ -25,10 +25,7 @@
     },
     "ts-node": {
         "transpileOnly": true,
-        "files": true,
-        "compilerOptions": {
-            "module": "CommonJS"
-        }
+        "files": true
     },
     "include": ["src/**/*"]
 }
