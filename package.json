@@ -10,6 +10,7 @@
         "starter"
     ],
     "license": "MIT",
+    "type": "module",
     "author": {
         "name": "Ignacio Villamar",
         "email": "iggy@ivstudio.com",
