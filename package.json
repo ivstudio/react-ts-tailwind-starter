@@ -21,7 +21,7 @@
         "start": "webpack serve --config webpack/webpack.dev.ts",
         "test": "jest",
         "analyze": "ANALYZE=true npm run build",
-        "build": "webpack --config webpack/webpack.prod.ts",
+        "build": "NODE_OPTIONS='--loader ts-node/esm' npx webpack --config webpack/webpack.prod.ts",
         "coverage": "jest --coverage",
         "format": "prettier --write src",
         "lint": "eslint ./src",
