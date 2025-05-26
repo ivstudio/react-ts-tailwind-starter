@@ -38,7 +38,7 @@
         "@babel/plugin-transform-runtime": "^7.27.1",
         "@babel/preset-env": "^7.27.2",
         "@babel/preset-react": "^7.27.1",
-        "@babel/preset-typescript": "^7.27.0",
+        "@babel/preset-typescript": "^7.27.1",
         "@eslint/js": "^9.19.0",
         "@tailwindcss/postcss": "^4.1.7",
         "@testing-library/dom": "^10.4.0",
