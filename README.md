@@ -1,6 +1,6 @@
-# React 19, TypeScript, Tailwind CSS, and Webpack 6 starter template
+# React 19, TypeScript, Tailwind CSS, and Webpack 5 starter template
 
-Starter template using React 19, TypeScript, TailwindCSS, and Webpack 6, optimized for seamless development and efficient production builds.
+Starter template using React 19, TypeScript, TailwindCSS, and Webpack 5, optimized for seamless development and efficient production builds.
 
 <a href="https://twitter.com/ivstudio"><img src="https://img.shields.io/twitter/follow/ivstudio.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 
@@ -9,7 +9,7 @@ Starter template using React 19, TypeScript, TailwindCSS, and Webpack 6, optimiz
 - [React 19](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Webpack 6](https://webpack.js.org/)
+- [Webpack 5](https://webpack.js.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Jest](https://jestjs.io/)
