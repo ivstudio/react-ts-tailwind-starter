@@ -3,11 +3,10 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import webpack from 'webpack';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const commonConfig: webpack.Configuration = {
+const commonConfig = {
     context: path.resolve(__dirname, '../'),
     entry: './src/index.tsx',
     output: {

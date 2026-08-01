@@ -5,11 +5,11 @@ import webpack from 'webpack';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import { merge } from 'webpack-merge';
 
-import commonConfig from './webpack.common.ts';
+import commonConfig from './webpack.common.mjs';
 
 const isAnalyze = process.env.ANALYZE === 'true';
 
-const prodConfig: webpack.Configuration = {
+const prodConfig = {
     mode: 'production',
     devtool: 'source-map',
     optimization: {

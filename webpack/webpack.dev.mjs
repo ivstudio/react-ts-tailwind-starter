@@ -5,11 +5,11 @@ import { merge } from 'webpack-merge';
 
 import 'webpack-dev-server';
 
-import commonConfig from './webpack.common.ts';
+import commonConfig from './webpack.common.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const devConfig: webpack.Configuration = {
+const devConfig = {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {

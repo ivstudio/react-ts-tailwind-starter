@@ -4,7 +4,7 @@
         "target": "ESNext",
         "lib": ["dom", "dom.iterable", "ESNext"],
         "module": "ESNext",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "jsx": "react-jsx",
         "declaration": true,
         "outDir": "dist",
@@ -17,28 +17,21 @@
         "isolatedModules": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "baseUrl": ".",
         "paths": {
-            "@/*": ["src/*"]
+            "@/*": ["./src/*"]
         },
         "types": ["node", "@testing-library/jest-dom"]
-    },
-    "ts-node": {
-        "transpileOnly": true,
-        "files": true
     },
     "include": ["src/**/*"]
 }
 
-
 /* 
   TypeScript configuration options:
   - "noEmit": true - We're using Babel for compilation, do not emit outputs.
-  - "baseUrl": "." - Base directory to resolve non-absolute module names.
   - "target": "esnext" - Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', or 'ESNEXT'.
   - "lib": ["dom", "dom.iterable", "esnext"] - Comprehensive type support for modern web development.
   - "module": "esnext" - Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'.
-  - "moduleResolution": "node" - Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6).
+  - "moduleResolution": "bundler" - Resolve modules using bundler-compatible semantics.
   - "jsx": "react-jsx" - Specify JSX code generation: 'preserve', 'react-native', or 'react'.
   - "declaration": true - Generates corresponding '.d.ts' file.
   - "outDir": "dist" - Redirect output structure to the directory.
@@ -52,15 +45,7 @@
   - "esModuleInterop": true - Emit '__importDefault' instead of 'require' for ES modules.
   - "skipLibCheck": true - Skip type checking of all declaration files (*.d.ts).
   - "paths": {
-      "@/*": ["src/*"] - Sets up path mapping for module resolution.
+      "@/*": ["./src/*"] - Sets up path mapping for module resolution.
   }
   - "types": ["node", "@testing-library/jest-dom"] - Specifies types to include.
-
-  ts-node configuration options:
-  - "transpileOnly": true - Skip type checking for faster compilation.
-  - "files": true - Include files that are specified in the "include" array.
-  - "compilerOptions": {
-      "module": "commonjs" - Use CommonJS module system for Node.js compatibility.
-  }
-  - "include": [] - Specifies files to include in the project.
-  */
+ */
